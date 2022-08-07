@@ -1,13 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../public/Comfortaa/Comfortaa-Regular.ttf");
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  cursor: url("../public/startupdevcursor.png"), auto !important;
+}
+.startupdev {
+  background: linear-gradient(
+    to left,
+    #357afa 20%,
+    #ff7edc 40%,
+    #ff7edc 60%,
+    #357afa 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: startupdev 2s linear infinite;
+  animation: startupdev 2s linear infinite;
+  cursor: pointer;
+}
+.startupdev:hover {
+  background: linear-gradient(
+    to left,
+    #357afa 20%,
+    #ff7edc 40%,
+    #ff7edc 60%,
+    #357afa 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: startupdev 2s linear infinite;
+  animation: startupdev 2s linear infinite;
+  cursor: pointer;
+}
+.startupdev {
+  font-weight: 600;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+}
+.startupdev::selection {
+  background: #ff7edc33;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@-webkit-keyframes startupdev {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes startupdev {
+  to {
+    background-position: 200% center;
+  }
 }
