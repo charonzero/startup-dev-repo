@@ -1,10 +1,7 @@
 import logo from "./logowithtypo.png";
 import mobilelogo from "./mobilelogo.png";
 import "./App.css";
-import { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
-  useRoutes,
   Link,
   Outlet,
 } from "react-router-dom";

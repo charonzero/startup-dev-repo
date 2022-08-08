@@ -13,7 +13,7 @@ function OurServices () {
     return (
         <>
         <div className="w-full min-h-screen py-10 rounded flex justify-center flex-wrap select-none">
-        <div className="w-11/12 md:w-3/5 flex justify-center flex-wrap">
+        <div className="w-11/12 md:w-4/5 flex justify-center flex-wrap">
           <h1
             className="inline text-3xl font-bold text-primary hover:text-secondary relative transition-all w-min-content
           before:w-0 before:h-1 before:absolute before:bottom-0 before:right-0 before:bg-primary before:transition-all before:duration-500

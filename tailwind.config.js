@@ -35,6 +35,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('../public/hero-bg.jpg')",
       },
+    
     },
   },
   plugins: [require("tailwindcss-glow")()],

@@ -1,5 +1,5 @@
 import "./App.css";
-import heroimg from "./assets/herowebsite.jpg";
+import heroimg from "./assets/images/herowebsite.png";
 import OurLanguage from "./component/ourlangauges";
 import OurServices from "./component/ourservices";
 
@@ -7,17 +7,8 @@ import "react-multi-carousel/lib/styles.css";
 import ReactTypingEffect from "react-typing-effect";
 
 function HomePage() {
-  // const [count, setCount] = useState(100);
-
-  // // Similar to componentDidMount and componentDidUpdate:
-  // useEffect(() => {
-  //   // Update the document title using the browser API
-  //   document.title = `You clicked ${count} times`;
-  // });
-
   return <HeroVideo />;
 }
-
 
 function HeroVideo() {
   return (
@@ -25,11 +16,11 @@ function HeroVideo() {
       <div className="w-full min-h-screen flex flex-wrap  bg-hero-pattern bg-cover">
         <div className="flex flex-wrap justify-center w-full md:w-1/2 items-center text-opacity-70">
           <div className="w-full text-center">
-            <h1 className="w-full font-bold text-4xl text-white">
+            <h1 className="w-full font-bold text-4xl text-white px-2">
               What is <span className="text-[#3E61AD]">Startup</span>{" "}
               <span className="text-[#E6A1C8]">Dev</span> ?
             </h1>
-            <div className="w-full font-semibold md:text-3xl text-white">
+            <div className="w-full font-semibold text-md md:text-xl lg:text-3xl text-white px-2">
               <ReactTypingEffect
                 speed={50}
                 eraseSpeed={25}
@@ -45,12 +36,15 @@ function HeroVideo() {
         <div className="md:flex flex-wrap justify-center hidden md:w-1/2 items-center  transition-all ease-in-out">
           <img
             src={heroimg}
-            className="w-full object-contain hover:opacity-70 object-center border-l-4 border-t-4 border-b-4 border-secondary border-opacity-70"
+            className="w-full object-contain object-center border-secondary border-opacity-70"
             alt="heroimg"
           />
+          {/* vector created by pch.vector - www.freepik.com */}
         </div>
       </div>
-      <OurLanguage />
+      <div className="w-11/12 md:w-full justify-center flex mx-auto px-4 md:px-0">
+        <OurLanguage />
+      </div>
       <OurServices />
     </div>
   );

@@ -1,8 +1,9 @@
-import zet from "../assets/zet.jpg";
-import naimlyss from "../assets/naimlyss.jpg";
-import sora from "../assets/sora.jpg";
-import zetsuo from "../assets/zetsuo.jpg"
-import oogabooga from "../assets/oogabooga.png";
+import zet from "../assets/images/zet.jpg";
+import naimlyss from "../assets/images/naimlyss.jpg";
+import sora from "../assets/images/sora.jpg";
+import zetsuo from "../assets/images/zetsuo.jpg";
+import oogabooga from "../assets/images/oogabooga.jpg";
+import thuta from "../assets/images/thuta.jpg"
 import Icon from "@mdi/react";
 import { mdiGithub, mdiLinkedin } from "@mdi/js";
 function OurTeam() {
@@ -17,11 +18,11 @@ function OurTeam() {
       </h1>
       <div className="w-full flex flex-wrap">
         <div className="w-1/2 md:w-1/3 p-2">
-          <div className="w-full shadow-md box-border border pb-6 group relative">
+          <div className="w-full shadow-md box-border border rounded-md pb-6 group relative p-2 h-full">
             <img
               src={zet}
               className="w-full h-60 object-scale-down my-6"
-              alt="Zet's picture"
+              alt="Zet_Picture"
             ></img>
             <h3 className="w-full text-center font-mono font-bold text-2xl text-primary group-hover:text-secondary">
               Thi Ha Zaw
@@ -57,11 +58,11 @@ function OurTeam() {
           </div>
         </div>
         <div className="w-1/2 md:w-1/3 p-2">
-          <div className="w-full shadow-md box-border border pb-6 group relative">
+          <div className="w-full shadow-md box-border border rounded-md pb-6 group relative p-2 h-full">
             <img
               src={sora}
               className="w-full h-60 object-scale-down my-6"
-              alt="Zet's picture"
+              alt="Sora_Picture"
             ></img>
             <h3 className="w-full text-center font-mono font-bold text-2xl text-primary group-hover:text-secondary">
               Htet Kaung Kin
@@ -98,11 +99,11 @@ function OurTeam() {
         </div>
 
         <div className="w-1/2 md:w-1/3 p-2">
-          <div className="w-full shadow-md box-border border pb-6 group relative">
+          <div className="w-full shadow-md box-border border rounded-md pb-6 group relative p-2 h-full">
             <img
-              src={naimlyss}
+              src={thuta}
               className="w-full h-60 object-scale-down my-6"
-              alt="Zet's picture"
+              alt="ThuTa_Picture"
             ></img>
             <h3 className="w-full text-center font-mono font-bold text-2xl text-primary group-hover:text-secondary">
               Hein Thuta Phyoe
@@ -138,11 +139,11 @@ function OurTeam() {
           </div>
         </div>
         <div className="w-1/2 md:w-1/3 p-2">
-          <div className="w-full shadow-md box-border border pb-6 group relative">
+          <div className="w-full shadow-md box-border border rounded-md pb-6 group relative p-2 h-full">
             <img
               src={naimlyss}
               className="w-full h-60 object-scale-down my-6"
-              alt="Zet's picture"
+              alt="Naimlyss_Picture"
             ></img>
             <h3 className="w-full text-center font-mono font-bold text-2xl text-primary group-hover:text-secondary">
               Hein Thant Aung
@@ -151,7 +152,7 @@ function OurTeam() {
               Alias : Naimlyss, Anonvill
             </h3>
             <h5 className="w-full text-center font-mono font-bold text-md text-primary">
-              Ooga Booga
+              Frontend Developer
             </h5>
             <div className="absolute top-0 right-0 p-2 text-primary">
               <button>
@@ -179,17 +180,17 @@ function OurTeam() {
         </div>
 
         <div className="w-1/2 md:w-1/3 p-2">
-          <div className="w-full shadow-md box-border border pb-6 group relative">
+          <div className="w-full shadow-md box-border border rounded-md pb-6 group relative p-2 h-full">
             <img
               src={oogabooga}
               className="w-full h-60 object-scale-down my-6"
-              alt="Zet's picture"
+              alt="OldMan_Picture"
             ></img>
             <h3 className="w-full text-center font-mono font-bold text-2xl text-primary group-hover:text-secondary">
               Min Maw Khant
             </h3>
             <h3 className="w-full text-center font-mono font-bold text-xs text-primary group-hover:text-secondary">
-              Alias : Naimlyss, Anonvill
+              Alias : theoldman44
             </h3>
             <h5 className="w-full text-center font-mono font-bold text-md text-primary">
               Ooga Booga ( Newbie )
@@ -219,11 +220,11 @@ function OurTeam() {
           </div>
         </div>
         <div className="w-1/2 md:w-1/3 p-2">
-          <div className="w-full shadow-md box-border border pb-6 group relative">
+          <div className="w-full shadow-md box-border border rounded-md pb-6 group relative p-2 h-full">
             <img
               src={zetsuo}
               className="w-full h-60 object-scale-down my-6"
-              alt="Zet's picture"
+              alt="Zetsu0_Picture"
             ></img>
             <h3 className="w-full text-center font-mono font-bold text-2xl text-primary group-hover:text-secondary">
               Swann Pyae Sone Aung
